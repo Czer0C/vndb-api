@@ -1,0 +1,12 @@
+{
+  "name": "vndb-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Czer0C/vndb-api.git",
+  "author": "Nguyễn Hải Triều <36495153+Czer0C@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vndb-api": "^1.0.3"
+  }
+}
