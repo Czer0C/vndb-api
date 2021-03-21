@@ -2,7 +2,7 @@ const express = require("express");
 const VNDB = require("vndb-api");
 
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 5000;
 
 const userID = `131608`;
 const limit = 100; // ! Maximum number of item per request (though I doubt I'd ever gonna read this many VN)
